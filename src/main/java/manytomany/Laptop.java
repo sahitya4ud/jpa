@@ -16,7 +16,7 @@ public class Laptop {
     @Column(name="name")
     private String name;
 
-    @ManyToMany
+    @ManyToMany(mappedBy = "laptop")
     private List<Student> student=new ArrayList<Student>();
 
     public int getId() {

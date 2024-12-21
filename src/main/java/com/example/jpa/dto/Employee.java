@@ -2,7 +2,7 @@ package com.example.jpa.dto;
 
 import jakarta.persistence.*;
 
-@Entity
+//@Entity
 @Table
 public class Employee {
     @Id

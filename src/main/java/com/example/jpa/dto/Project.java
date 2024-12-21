@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import java.util.Date;
 import java.util.List;
 
-@Entity
+//@Entity
 @Table
 
 public class Project {

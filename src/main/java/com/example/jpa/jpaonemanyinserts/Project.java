@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 
 import java.util.Date;
 import java.util.List;
-@Entity
+
 @Table(name = "Project_latest_jpa" , schema = "sonar")
 
 

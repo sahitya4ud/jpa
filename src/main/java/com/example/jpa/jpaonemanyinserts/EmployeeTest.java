@@ -1,7 +1,7 @@
 package com.example.jpa.jpaonemanyinserts;
 import jakarta.persistence.*;
 
-@Entity
+
 @Table(schema = "sonar", name= "employee_latest_jpa")
 public class EmployeeTest {
 
