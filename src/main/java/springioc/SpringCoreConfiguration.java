@@ -3,7 +3,10 @@ package springioc;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-@ComponentScan
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+
+@EnableAspectJAutoProxy
+@ComponentScan(basePackages = "springioc")
 @Configuration
 public class SpringCoreConfiguration {
 

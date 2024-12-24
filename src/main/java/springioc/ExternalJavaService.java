@@ -9,7 +9,13 @@ public class ExternalJavaService {
     @Autowired
     ConnectionService ConnectionService;
     public void external(){
-        System.out.println("external");
+
+        long startTimrInmills = System.currentTimeMillis();
+
+        System.out.println("Enter into external method");
         ConnectionService.getConnection("abc","abc","abc");
+
+        long endTimeInmills = System.currentTimeMillis();
+        System.out.println("Exit from external method timeTaken"+(endTimeInmills-startTimrInmills));
     }
 }
