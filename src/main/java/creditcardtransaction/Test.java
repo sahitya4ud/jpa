@@ -79,7 +79,7 @@ public class Test {
         t1.setTransactionDate(new Date());
         t1.setTransactionType("shopping");
 
-        creditCard.setTransactionList(Arrays.asList(t1,t2,t3,t4,t5));
+      //  creditCard.setTransactionList(Arrays.asList(t1,t2,t3,t4,t5));
         entityManager.persist(creditCard);
         entityManager.getTransaction().commit();
 
