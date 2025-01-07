@@ -1,21 +1,10 @@
-package creditcardtransaction;
+package creditcardsmartemisystem;
 
 import java.util.Date;
 
 public class ListOfTransactionsBillPeriod {
     private Date fromDate;
     private Date toDate;
-
-    public ListOfTransactionsBillPeriod(){
-
-    }
-
-    public ListOfTransactionsBillPeriod(Date fromDate,Date toDate){
-
-        if(fromDate.after(toDate)){
-
-        }
-    }
 
     public Date getFromDate() {
         return fromDate;
